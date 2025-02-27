@@ -55,10 +55,10 @@ export default function Footer() {
               </Button>
             </div>
             <div className="flex gap-4 mt-6">
-              <Facebook className="text-gray-700 hover:text-white" />
-              <Twitter className="text-gray-700 hover:text-white" />
-              <Instagram className="text-gray-700 hover:text-white" />
-              <Linkedin className="text-gray-700 hover:text-white" />
+              <Facebook className="text-gray-700 hover:text-secondary" />
+              <Twitter className="text-gray-700 hover:text-secondary" />
+              <Instagram className="text-gray-700 hover:text-secondary" />
+              <Linkedin className="text-gray-700 hover:text-secondary" />
             </div>
           </div>
         </div>

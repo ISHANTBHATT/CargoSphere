@@ -8,6 +8,9 @@ import FeaturesHighlight from "./FeaturesHighlight";
 import ProductShowcase from "./ProductShowcase";
 import TestimonialSection from "./TestimonialSection";
 import VideoSection from "./VideoSection";
+import ShapedCard from "./ShapedCard";
+import Banner2 from "./Banner2";
+import Team from "./Team";
 
 const testimonials = [
   {
@@ -48,18 +51,22 @@ const testimonials = [
 function Homepage() {
   return (
     <div className="">
-      <Hero />
+      {/* <Hero /> */}
+      <Banner2 />
       {/* <Banner /> */}
-      <Features />
-      <FeaturesHighlight />
-      <ProductShowcase />
-      {/* <TestimonialSection /> */}
-      <VideoSection />
-      <div className="h-[40rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
-        <Testimonials items={testimonials} direction="right" speed="slow" />
+      <div className="px-20">
+        <Features />
+        <FeaturesHighlight />
+        <ProductShowcase />
+        {/* <TestimonialSection /> */}
+        <VideoSection />
+        <div className="h-[40rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
+          <Testimonials items={testimonials} direction="right" speed="slow" />
+        </div>
+        <Team />
+        {/* <ShapedCard /> */}
+        {/* <Clients /> */}
       </div>
-
-      <Clients />
     </div>
   );
 }

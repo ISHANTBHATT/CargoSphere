@@ -19,8 +19,9 @@ export default function VideoSection() {
               <span className="text-secondary"> DCOS</span>
             </h1>
             <p className="max-w-[600px] text-neutral-700 md:text-xl">
-              Take your manufacturing plant to new heights by getting the utmost
-              shop floor visibility, connectivity & real-time insights.
+              We promise distinct competitive advantage with measurable
+              improvement in Service Levels and Delivery Cost for the Cargo &
+              Logistics Industry.
             </p>
           </div>
           <div className="flex flex-col gap-4 lg:flex-row">
@@ -45,7 +46,7 @@ export default function VideoSection() {
           <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-cyan-600/20"></div>
           <div className="relative h-full w-full overflow-hidden rounded-lg">
             <img
-              src="/images/bg.png"
+              src="/images/bg2.jpg"
               alt="DFOS Dashboard Preview"
               className="h-full w-full object-cover"
             />

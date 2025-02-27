@@ -40,41 +40,41 @@ function NavbarDemo({ className }) {
             <HoveredLink href="/branding">Branding</HoveredLink>
           </div> */}
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Products">
-          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+        <MenuItem setActive={setActive} active={null} item="Contact">
+          {/* <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
               title="Algochurn"
               href="https://algochurn.com"
-              src="/images/DFOS.svg"
+              src="/images/test-logo.png"
               description="Prepare for tech interviews like never before."
             />
             <ProductItem
               title="Tailwind Master Kit"
               href="https://tailwindmasterkit.com"
-              src="/images/DFOS.svg"
+              src="/images/test-logo.png"
               description="Production ready Tailwind css components for your next project"
             />
             <ProductItem
               title="Moonbeam"
               href="https://gomoonbeam.com"
-              src="/images/DFOS.svg"
+              src="/images/test-logo.png"
               description="Never write from scratch again. Go from idea to blog in minutes."
             />
             <ProductItem
               title="Rogue"
               href="https://userogue.com"
-              src="/images/DFOS.svg"
+              src="/images/test-logo.png"
               description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
             />
-          </div>
+          </div> */}
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Pricing">
-          <div className="flex flex-col space-y-4 text-sm">
+        <MenuItem setActive={setActive} active={null} item="Pricing">
+          {/* <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/hobby">Hobby</HoveredLink>
             <HoveredLink href="/individual">Individual</HoveredLink>
             <HoveredLink href="/team">Team</HoveredLink>
             <HoveredLink href="/enterprise">Enterprise</HoveredLink>
-          </div>
+          </div> */}
         </MenuItem>
       </Menu>
     </div>

@@ -88,7 +88,7 @@ export default function ProductShowcase() {
           <div className="relative">
             <div className="absolute z-10 flex justify-center items-center w-full h-full clip-hexagon">
               <Image
-                src="/images/OneFact.svg"
+                src="/images/f2.png"
                 width={400}
                 height={400}
                 alt="Flow Image"
@@ -133,33 +133,39 @@ export default function ProductShowcase() {
             <span>NEW PRODUCT</span>
           </div>
           <h2 className="text-4xl font-bold">
-            One Factory-<span className="text-[#F75F00]"> One Platform</span>
+            Enabling accelerated-
+            <span className="text-[#F75F00]"> sustainable supply chain</span>
           </h2>
           <p className="text-muted-foreground">
-            Experience the future of wearable technology with our revolutionary
-            HexaGear smartwatch.
+            Our product offers several industry new features and capability that
+            would address the much needed Productivity, Visibility and
+            Sustainability demands along with ease of use and one-click
+            interface for a range of value added services.
           </p>
           <ul className="space-y-4">
-            <li className="flex items-center gap-4">
+            <li className="flex items-center gap-2">
               <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
                 1
               </span>
-              A no-code, platform designed to build solutions tailored to your
-              specific shop floor needs.
+              Lack of real-time Visibility of cargo and process flows
             </li>
-            <li className="flex items-center gap-4">
+            <li className="flex items-center gap-2">
               <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
                 2
               </span>
-              Connects 600+ Processes Digitally without disrupting your existing
-              setup.
+              Instant Communication challenges across the supply chain
             </li>
-            <li className="flex items-center gap-4">
-              <span className="bg-[#e5ff00] text-black w-10 h-6 rounded-full flex items-center justify-center">
+            <li className="flex items-center gap-2">
+              <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
                 3
               </span>
-              Helps you become future-ready by aligning with Industry 5.0
-              standards, transforming your operations into a Lighthouse factory.
+              High dependence of Paper based Manualwork flows
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
+                4
+              </span>
+              Resource Productivity/Utilization challenges
             </li>
           </ul>
         </div>

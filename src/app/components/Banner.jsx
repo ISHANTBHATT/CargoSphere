@@ -104,11 +104,11 @@ import { TypewriterEffectSmooth } from "./TypewriterEffect";
 
 export default function Banner() {
   const flipWords = [
-    "Maintenance",
-    " Safety",
-    "Production",
-    "Quality",
-    "Utility",
+    "Productivity",
+    "Visibility",
+    "Sustainability",
+    // "Quality",
+    // "Utility",
   ];
 
   const typewriterWords = [
@@ -116,23 +116,23 @@ export default function Banner() {
       text: "DCOS",
     },
     {
-      text: "unites",
+      text: "Offers",
     },
     {
       text: "FlipWords",
       isFlipWord: true,
     },
     {
-      text: "at",
+      text: "with",
+    },
+    // {
+    //   text: "ease of use and",
+    // },
+    {
+      text: "one-click",
     },
     {
-      text: "a",
-    },
-    {
-      text: "single",
-    },
-    {
-      text: "platform.",
+      text: "interface.",
     },
   ];
 

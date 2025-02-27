@@ -10,7 +10,8 @@ export default function FeaturesHighlight() {
             <span>FROM 2023</span>
           </div>
           <h2 className="text-4xl font-bold">
-            <span className="text-[#F75F00]">DCOS</span> Your Factory Co-Pilot
+            <span className="text-[#F75F00]">DCOS</span> Sustaining global
+            supply
             {/* <span className="text-[#F75F00]">Distinctive</span> And{" "}
             <span className="text-[#F75F00]">Popular</span>? */}
           </h2>
@@ -47,30 +48,6 @@ export default function FeaturesHighlight() {
               Absence of Seamless Interoperability among Multimodal
               Operators/Agencies.
             </li>
-            <li className="flex items-center gap-2">
-              <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
-                5
-              </span>
-              Lack of real-time Visibility of cargo and process flows
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
-                6
-              </span>
-              Instant Communication challenges across the supply chain
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
-                7
-              </span>
-              High dependence of Paper based Manualwork flows
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
-                8
-              </span>
-              Resource Productivity/Utilization challenges
-            </li>
           </ul>
         </div>
         <div className="relative">
@@ -78,7 +55,7 @@ export default function FeaturesHighlight() {
           <div className="relative ">
             <div className=" absolute z-10 flex justify-center items-center w-full h-full  rounded-full">
               <Image
-                src="/images/flowImg.svg"
+                src="/images/f1.png"
                 width={400}
                 height={400}
                 className="object-cover"
