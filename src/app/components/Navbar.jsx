@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Navbar() {
   return (
@@ -30,18 +31,29 @@ function NavbarDemo({ className }) {
       )}
     >
       <Menu setActive={setActive} className="text-neutral-800 ">
-        <Image src="/images/logo.png" width={150} height={200} />
-        <MenuItem setActive={setActive} active={null} item="Product"></MenuItem>
-        <MenuItem setActive={setActive} active={null} item="About Us">
-          {/* <div className="flex flex-col space-y-4 text-sm">
+        <Link href="/">
+          <Image src="/images/logo.png" width={150} height={200} />
+        </Link>
+        <Link href="/product">
+          <MenuItem
+            setActive={setActive}
+            active={null}
+            item="Product"
+          ></MenuItem>
+        </Link>
+        <Link href="/about">
+          <MenuItem setActive={setActive} active={null} item="About Us">
+            {/* <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/web-dev">Web Development</HoveredLink>
             <HoveredLink href="/interface-design">Interface Design</HoveredLink>
             <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
             <HoveredLink href="/branding">Branding</HoveredLink>
           </div> */}
-        </MenuItem>
-        <MenuItem setActive={setActive} active={null} item="Contact">
-          {/* <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+          </MenuItem>
+        </Link>
+        <Link href="/contact">
+          <MenuItem setActive={setActive} active={null} item="Contact">
+            {/* <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
               title="Algochurn"
               href="https://algochurn.com"
@@ -67,7 +79,9 @@ function NavbarDemo({ className }) {
               description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
             />
           </div> */}
-        </MenuItem>
+          </MenuItem>
+        </Link>
+
         <MenuItem setActive={setActive} active={null} item="Pricing">
           {/* <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/hobby">Hobby</HoveredLink>
