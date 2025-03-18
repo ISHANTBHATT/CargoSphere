@@ -101,23 +101,23 @@ export default function Banner2() {
             </div>
           </div>
 
-          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 relative w-full">
+          <div className="grid gap-10 sm:grid-cols-1 lg:grid-cols-2 relative w-full">
             {[
               {
                 id: "01",
-                title: "About",
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                title: "MISSION",
+                text: "To craft technological solutions that simplify and accelerate global supply chain processes, provide data-driven insights, enable seamless collaboration, foster innovation and promote sustainability.",
               },
               {
                 id: "02",
-                title: "Storing",
-                text: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                title: "VISION",
+                text: "Enabling accelerated and sustainable supply chain.",
               },
-              {
-                id: "03",
-                title: "Functions",
-                text: "It has survived not only five centuries.",
-              },
+              // {
+              //   id: "03",
+              //   title: "Functions",
+              //   text: "It has survived not only five centuries.",
+              // },
             ].map((item) => (
               <div
                 key={item.id}

@@ -13,21 +13,23 @@ export default function VideoSection() {
       <div className="container relative mx-auto grid gap-8 px-4 py-16 md:grid-cols-2 md:px-6 lg:gap-12 lg:py-24">
         <div className="flex flex-col justify-center space-y-8">
           <div className="space-y-6">
-            <h1 className="text-neutral-800 text-4xl font-bold tracking-tighter  sm:text-5xl xl:text-6xl/none">
+            <h1 className="text-neutral-700 text-4xl font-bold tracking-tighter  sm:text-5xl xl:text-6xl/none">
               {/* Harness The Power Of DFOS™ */}
               Harness The Power Of
               <span className="text-secondary"> DCOS</span>
             </h1>
             <p className="max-w-[600px] text-neutral-700 md:text-xl">
-              We promise distinct competitive advantage with measurable
-              improvement in Service Levels and Delivery Cost for the Cargo &
-              Logistics Industry.
+              Explore how our innovative platform can transform your logistics
+              operations. Featuring real-time tracking, seamless integration,
+              and advanced analytics, our Digital Cargo Operating System
+              streamlines the complexities of cargo management. Seize the
+              opportunity to elevate your supply chain to unprecedented levels.
             </p>
           </div>
           <div className="flex flex-col gap-4 lg:flex-row">
             <Button
               size="lg"
-              className="bg-neutral-800 rounded-full text-white hover:from-purple-500/30 hover:to-[#e5ff00]/30"
+              className="bg-neutral-800 rounded-full text-white hover:bg-secondary "
             >
               Request a Demo
             </Button>

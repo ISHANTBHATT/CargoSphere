@@ -99,73 +99,107 @@
 
 //working
 
+// "use client";
+// import React from "react";
+// import { FlipWords } from "./FlipWords";
+// import { TypewriterEffectSmooth } from "./TypewriterEffect";
+
+// export default function Banner() {
+//   const flipWords = ["Productivity", "Visibility", "Sustainability"];
+
+//   const typewriterWords = [
+//     {
+//       text: "CargoSphere",
+//     },
+//     {
+//       text: "Offers",
+//     },
+//     // {
+//     //   text: "FlipWords",
+//     //   isFlipWord: true,
+//     // },
+//     {
+//       text: "a",
+//     },
+//     // {
+//     //   text: "ease of use and",
+//     // },
+//     {
+//       text: "Digital",
+//     },
+//     {
+//       text: "Cargo",
+//     },
+//     {
+//       text: "Operating",
+//     },
+//     {
+//       text: "System",
+//     },
+//     {
+//       text: "(DCOS)",
+//     },
+//   ];
+
+//   const renderWord = (word, index) => {
+//     if (word.isFlipWord) {
+//       return (
+//         <>
+//           <FlipWords
+//             key={index}
+//             words={flipWords}
+//             className="inline-block text-secondary"
+//           />
+//           <br />
+//         </>
+//       );
+//     }
+//     return <span key={index}>{word.text}</span>;
+//   };
+
+//   return (
+//     <div className=" flex flex-col justify-center items-left overflow-hidden">
+//       <div className=" font-normal text-neutral-600 dark:text-neutral-400 ">
+//         <TypewriterEffectSmooth
+//           words={typewriterWords}
+//           renderWord={renderWord}
+//         />
+//       </div>
+//     </div>
+//   );
+// }
+
 "use client";
 import React from "react";
-import { FlipWords } from "./FlipWords";
 import { TypewriterEffectSmooth } from "./TypewriterEffect";
 
 export default function Banner() {
-  const flipWords = [
-    "Productivity",
-    "Visibility",
-    "Sustainability",
-    // "Quality",
-    // "Utility",
-  ];
-
   const typewriterWords = [
+    { text: "CargoSphere", className: "text-neutral-700" },
+    { text: "Offers", className: "text-neutral-700" },
+    { text: "a", className: "text-neutral-700" },
+    { text: "Digital", className: "text-neutral-700" },
+    { text: "Cargo", className: "text-neutral-700" },
+    { text: "Operating", className: "text-neutral-700" },
+    { text: "System", className: "text-neutral-700" },
     {
-      text: "DCOS",
-    },
-    {
-      text: "Offers",
-    },
-    {
-      text: "FlipWords",
-      isFlipWord: true,
-    },
-    {
-      text: "with",
-    },
-    // {
-    //   text: "ease of use and",
-    // },
-    {
-      text: "one-click",
-    },
-    {
-      text: "interface.",
+      text: "(DCOS)",
+      className: "text-secondary",
     },
   ];
-
-  const renderWord = (word, index) => {
-    if (word.isFlipWord) {
-      return (
-        <>
-          <FlipWords
-            key={index}
-            words={flipWords}
-            className="inline-block text-secondary"
-          />
-          <br />
-        </>
-      );
-    }
-    return <span key={index}>{word.text}</span>;
-  };
 
   return (
-    <div className=" flex flex-col justify-center items-left overflow-hidden">
-      <div className=" font-normal text-neutral-600 dark:text-neutral-400 ">
+    <div className="flex flex-col justify-center items-start max-w-3xl mx-auto p-4">
+      <div className="font-normal text-neutral-600 dark:text-neutral-400 w-full">
         <TypewriterEffectSmooth
           words={typewriterWords}
-          renderWord={renderWord}
+          className="text-2xl md:text-4xl lg:text-5xl font-bold text-black dark:text-white"
+          cursorClassName="h-6 md:h-8 lg:h-10"
         />
       </div>
     </div>
   );
 }
-
 // Banner.jsx
 // "use client";
 // import React from "react";

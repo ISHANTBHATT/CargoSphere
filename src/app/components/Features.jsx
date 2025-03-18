@@ -164,13 +164,16 @@ export default function BankingServices() {
     <div className="min-h-screen mt-20 rounded-3xl bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-5xl md:text-6xl">
+          <h1 className="text-4xl font-bold tracking-tight text-neutral-700 dark:text-white sm:text-5xl md:text-6xl">
             DIGITAL CARGO OPERATING SYSTEM
           </h1>
-          <p className="mt-6 max-w-2xl mx-auto text-lg text-slate-600 dark:text-slate-300">
-            Crafting technological solutions that simplify and accelerate global
-            supply chain processes, enabling seamless collaboration and
-            sustainable innovation.
+          <p className="mt-6 max-w-3xl mx-auto text-lg text-slate-600 dark:text-slate-300">
+            By choosing our Digital Cargo Operating System, one can expect not
+            only improved operational efficiencies but also a significant
+            enhancement in customer satisfaction through faster, more reliable
+            service. Join us in revolutionizing the cargo and logistics
+            industry, setting new standards for what is possible in the digital
+            age.
           </p>
         </div>
 

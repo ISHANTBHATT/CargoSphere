@@ -109,3 +109,28 @@ body {
 .animate-slide-right {
   animation: slide-right 20s linear infinite;
 } */
+.typewriter-container {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid; /* Simulate the caret */
+  animation: typing 4s steps(40, end) forwards, blink-caret 0.75s step-end infinite;
+}
+
+/* Animates the text reveal */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* Blinks the caret */
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
+}

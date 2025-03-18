@@ -5,15 +5,17 @@ export default function FeaturesHighlight() {
     <section className="w-full py-20">
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
-          <div className="inline-flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full">
+          {/* <div className="inline-flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full">
             <div className="h-6 w-12 bg-black rounded-full"></div>
             <span>FROM 2023</span>
-          </div>
-          <h2 className="text-4xl font-bold">
-            <span className="text-[#F75F00]">DCOS</span> Sustaining global
-            supply
+          </div> */}
+          <h2 className="text-4xl font-bold text-neutral-700">
+            {/* <span className="text-[#F75F00]">DCOS</span> Sustaining global
+            supply */}
             {/* <span className="text-[#F75F00]">Distinctive</span> And{" "}
             <span className="text-[#F75F00]">Popular</span>? */}
+            <span className="text-[#F75F00] ">Highlights</span> of DIGITAL CARGO
+            OPERATING SYSTEM
           </h2>
           <p className="text-muted-foreground">
             We are developing a new Cargo Operating System that would enable the
@@ -26,27 +28,25 @@ export default function FeaturesHighlight() {
               <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
                 1
               </span>
-              Repeated Data Entry with Low Data Accuracy
+              AI-Native Digital Cargo Platform
             </li>
             <li className="flex items-center gap-2">
               <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
                 2
               </span>
-              Non-standard and Disconnected Data Flows across borders
+              Conversational User Interface
             </li>
             <li className="flex items-center gap-2">
               <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
                 3
               </span>
-              Connectivity issues with multiple Legacy Systems acrossvarious
-              entities
+              Comprehensive Workflows & Visibility
             </li>
             <li className="flex items-center gap-2">
               <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
                 4
               </span>
-              Absence of Seamless Interoperability among Multimodal
-              Operators/Agencies.
+              Enhanced Digital Document Management
             </li>
           </ul>
         </div>

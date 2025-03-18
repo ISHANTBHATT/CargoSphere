@@ -181,19 +181,18 @@ function page() {
       <div className="absolute inset-0 bg-gradient-to-br from-gray-200 via-orange-100 to-orange-100 opacity-70 z-0" />
 
       {/* Hero Section */}
-      <div className="relative z-10 pt-32 pb-20 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto text-center">
+      <div className="relative z-10 pt-32 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto text-center">
         <div className="mb-16">
           <p className="text-xl font-medium mb-6 text-secondary">About Us</p>
           <h1 className="text-5xl md:text-7xl font-bold mb-4 tracking-tight text-gray-800">
-            Ship unique editors
+            CargoSphere
             <br />
             <span className="font-serif italic font-normal text-secondary">
-              fast with Tiptap
+              Technologies
             </span>
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto mt-8 text-gray-600">
-            From writing blog posts, publishing news stories, and collaborating
-            with AI, Tiptap helps create content around the web.
+            Accelerating Global Supply Chains with Seamless Efficiency
           </p>
         </div>
       </div>
@@ -212,24 +211,24 @@ function page() {
         {/* Introduction Section */}
         <section className="mb-20">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight text-gray-800">
-            About Tiptap
+            About CargoSphere
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mb-8 text-gray-600">
-            We're building the most versatile rich text editor framework for web
-            applications.
+            We are developing a new Cargo Operating System that would enable the
+            Cargo & Logistic Industry to function seamlessly.
           </p>
           <div className="prose prose-lg prose-invert max-w-none text-gray-700">
             <p>
-              Tiptap gives developers the freedom to create unique editing
-              experiences without compromising on quality or performance. Our
-              framework is built on top of ProseMirror, providing a solid
-              foundation with a more intuitive API.
+              Our product offers several industry new features and capability
+              that would address the much needed Productivity, Visibility and
+              Sustainability demands along with ease of use and one-click
+              interface for a range of value added services.
             </p>
           </div>
         </section>
 
         {/* Purpose and Goals Section */}
-        <section className="mb-20">
+        {/* <section className="mb-20">
           <h2 className="text-3xl font-bold mb-6 text-gray-800">Our Mission</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {[
@@ -261,7 +260,54 @@ function page() {
               </div>
             ))}
           </div>
-        </section>
+        </section> */}
+        <div className="flex flex-col ">
+          <section className="mb-20">
+            <h2 className="text-3xl font-bold mb-6 text-gray-800">
+              Our Logo Story
+            </h2>
+            <div className=" gap-8">
+              <div className="bg-white/80  p-6 rounded-lg shadow-lg">
+                <p className="text-gray-600 text-lg">
+                  Our logo symbolizes CargoSphereTechnologies' commitment
+                  toaccelerating and sustaining global supplychains. The sphere
+                  represents our globalreach, while the dynamic arrows
+                  illustrateseamless movement and efficiency. Thenetwork pattern
+                  highlights our focus ondata-driven insights and collaboration.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section className="mb-20">
+            <h2 className="text-3xl font-bold mb-6 text-gray-800">
+              Our Mission
+            </h2>
+            <div className=" gap-8">
+              <div className="bg-white/80  p-6 rounded-lg shadow-lg">
+                <p className="text-gray-600 text-lg">
+                  To craft technological solutions that simplify and accelerate
+                  global supply chain processes, provide data-driven insights,
+                  enable seamless collaboration, foster innovation and promote
+                  sustainability
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section className="mb-20 w-full">
+            <h2 className="text-3xl font-bold mb-6 text-gray-800">
+              Our VISION
+            </h2>
+            <div className=" gap-8">
+              <div className="bg-white/80  p-6 rounded-lg shadow-lg">
+                <p className="text-gray-600 text-lg">
+                  Enabling accelerated and sustainable supply chain
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
 
         {/* Team Section */}
         <section className="mb-20">
@@ -312,13 +358,14 @@ function page() {
                 Get in Touch
               </h2>
               <p className="text-xl text-gray-700 max-w-xl">
-                Have questions about Tiptap or need help with implementation?
-                We'd love to hear from you.
+                Discover how we can enhance your supply chain operations. We'd
+                love to hear from you.
               </p>
             </div>
             <div className="flex flex-col space-y-4">
               <Link
-                href="mailto:hello@tiptap.dev"
+                // href="mailto:hello@tiptap.dev"
+                href="/contact"
                 className="inline-flex items-center justify-center px-6 py-3 bg-secondary text-white font-medium rounded-md hover:bg-orange-600 transition-colors"
               >
                 <Mail className="mr-2" size={18} />

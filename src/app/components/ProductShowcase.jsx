@@ -128,44 +128,46 @@ export default function ProductShowcase() {
           </div>
         </div>
         <div className="space-y-6">
-          <div className="inline-flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full">
+          {/* <div className="inline-flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full">
             <div className="h-6 w-12 bg-[#F75F00] rounded-full"></div>
             <span>NEW PRODUCT</span>
-          </div>
-          <h2 className="text-4xl font-bold">
-            Enabling accelerated-
-            <span className="text-[#F75F00]"> sustainable supply chain</span>
+          </div> */}
+          <h2 className="text-4xl font-bold text-neutral-700">
+            {/* Enabling accelerated-
+            <span className="text-[#F75F00]"> sustainable supply chain</span> */}
+            <span className="text-[#F75F00] ">Highlights</span> of DIGITAL CARGO
+            OPERATING SYSTEM
           </h2>
-          <p className="text-muted-foreground">
+          {/* <p className="text-muted-foreground">
             Our product offers several industry new features and capability that
             would address the much needed Productivity, Visibility and
             Sustainability demands along with ease of use and one-click
             interface for a range of value added services.
-          </p>
+          </p> */}
           <ul className="space-y-4">
             <li className="flex items-center gap-2">
               <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
                 1
               </span>
-              Lack of real-time Visibility of cargo and process flows
+              Automated TDMS & Slot Booking
             </li>
             <li className="flex items-center gap-2">
               <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
                 2
               </span>
-              Instant Communication challenges across the supply chain
+              Intelligent Data Entry Automation
             </li>
             <li className="flex items-center gap-2">
               <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
                 3
               </span>
-              High dependence of Paper based Manualwork flows
+              Integrated Sustainability Monitoring & Reporting
             </li>
             <li className="flex items-center gap-2">
               <span className="bg-[#e5ff00] text-black w-6 h-6 rounded-full flex items-center justify-center">
                 4
               </span>
-              Resource Productivity/Utilization challenges
+              Data-Driven Insights
             </li>
           </ul>
         </div>

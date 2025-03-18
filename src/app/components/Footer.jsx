@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -15,18 +16,24 @@ export default function Footer() {
               <span className="font-medium text-white">Square Card</span> */}
             </div>
             <p className="text-gray-400">
-              A Modern Bank Card For A Modern World And Advanced And Up-To-Date
-              Services For Your Convenience
+              Innovative solutions and cutting-edge technology empower
+              businesses to optimize their logistics operations, ensuring
+              efficient and reliable transportation of goods across the globe
             </p>
           </div>
 
           <div>
             <h3 className="font-medium mb-4 text-black">Quick Access</h3>
-            <ul className="space-y-2 text-gray-500">
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Careers</li>
-              <li>Learn</li>
+            <ul className="space-y-2 text-gray-500 flex flex-col justify-between">
+              <Link href="/about">
+                <li>About Us</li>
+              </Link>
+              <Link href="/prodduct">
+                <li>Product</li>
+              </Link>
+              <Link href="/contact">
+                <li>Contact</li>
+              </Link>
             </ul>
           </div>
 
@@ -40,8 +47,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-medium mb-4 text-black">Newsletter</h3>
-            <p className="text-gray-400 mb-4">
+            <h3 className="font-medium mb-4 text-black">Follow Us</h3>
+            {/* <p className="text-gray-400 mb-4">
               To Know The Latest News And Updates, Enter Your Email So That We
               Can Contact You.
             </p>
@@ -53,7 +60,7 @@ export default function Footer() {
               <Button className="bg-secondary text-white hover:bg-secondary/90">
                 Subscribe
               </Button>
-            </div>
+            </div> */}
             <div className="flex gap-4 mt-6">
               <Facebook className="text-gray-700 hover:text-secondary" />
               <Twitter className="text-gray-700 hover:text-secondary" />

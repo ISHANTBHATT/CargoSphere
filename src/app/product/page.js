@@ -418,23 +418,25 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 pt-16 md:pt-36">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="flex-1">
-              <div className="inline-block px-4 py-1 rounded-full bg-orange-100 text-orange-500 font-medium text-sm mb-6">
+              {/* <div className="inline-block px-4 py-1 rounded-full bg-orange-100 text-orange-500 font-medium text-sm mb-6">
                 Bootstrap 5 Mobile Application HTML Template
-              </div>
+              </div> */}
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-700 mb-6">
-                Mobile
+                Digital Cargo
                 <br />
-                DigiClinic UIUX
+                Operating System
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold text-neutral-500 mb-6">
-                Mobile App HTML Template
+                Empower Your Logistics with Real-Time Insights
               </h2>
               <p className="text-gray-600 mb-8 ">
-                Mobile DigiClinic UIUX is a premium mobile app HTML template
-                built on Bootstrap 5, designed specifically for healthcare and
-                medical clinic software products. This modern, responsive
-                template offers a clean, professional design tailored to the
-                unique needs of the healthcare industry.
+                Digital Cargo Operating System (DCOS) is designed to
+                revolutionize the way businesses manage their logistics
+                operations, offering a comprehensive suite of tools that
+                streamline processes and enhance efficiency. By integrating
+                cutting-edge technology and innovative features, this platform
+                provides real-time visibility into cargo movements, enabling
+                companies to make informed decisions quickly.
               </p>
               <div className="flex flex-col sm:flex-row gap-6 items-center">
                 {/* <div>
@@ -492,11 +494,12 @@ export default function Home() {
         <WaveBackground position="top" color="#ffedd5" className="!-top-2" />
         <div className="container mx-auto px-4 text-center">
           <div className="inline-block px-4 py-1 rounded-full bg-orange-100 text-orange-500 font-medium text-sm mb-6">
-            Why DigiClinic Mobile
+            Why DCOS
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold text-neutral-700 mb-8 max-w-4xl mx-auto">
-            Healthcare, Medical & Clinical Appointment Booking Mobile App HTML
-            Template
+          <h2 className="text-xl md:text-2xl font-bold text-neutral-700 mb-8 max-w-4xl mx-auto">
+            The Digital Cargo Operating System (DCOS) emerges as a
+            transformative solution designed to revolutionize the way cargo and
+            logistics services are managed and integrated.
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8 mt-16">
@@ -504,10 +507,13 @@ export default function Home() {
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                 <FileText className="w-8 h-8 text-red-500" />
               </div>
-              <h3 className="text-xl font-bold mb-4">Patient Registry</h3>
+              <h3 className="text-xl font-bold mb-4">
+                Unified Platform Integration:
+              </h3>
               <p className="text-gray-600">
-                Easy to create patient and maintain records with patient's
-                health history. Track medical precautions with medication given.
+                DCOS will provide a seamless interface, enhancing collaboration
+                and efficiency across the Cargo & Logistics Industry, regardless
+                of location or service type.
               </p>
             </div>
 
@@ -515,10 +521,14 @@ export default function Home() {
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                 <Monitor className="w-8 h-8 text-blue-500" />
               </div>
-              <h3 className="text-xl font-bold mb-4">Appointment Booking</h3>
+              <h3 className="text-xl font-bold mb-4">
+                Enhanced Productivity and Sustainability:
+              </h3>
               <p className="text-gray-600">
-                Create appointment and track booking progress with patient
-                history and details. Chat and call with patient on the go.
+                By introducing innovative features focused on productivity,
+                visibility, and sustainability, our platform aims to address
+                critical industry demands while simplifying user experience with
+                a one-click interface for accessing value-added services.
               </p>
             </div>
 
@@ -526,10 +536,11 @@ export default function Home() {
               <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6 mx-auto">
                 <Search className="w-8 h-8 text-yellow-500" />
               </div>
-              <h3 className="text-xl font-bold mb-4">Quickly Find Details</h3>
+              <h3 className="text-xl font-bold mb-4">Competitive Advantage:</h3>
               <p className="text-gray-600">
-                Quickly you can find patient's history and notes, find
-                appointments and booking. Track your staff activities.
+                The system promises to deliver a distinct competitive edge by
+                enabling measurable improvements in service levels and reducing
+                delivery costs.
               </p>
             </div>
           </div>
@@ -537,7 +548,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      {/* <section className="relative py-16 md:py-24 overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-gray-200 to-orange-100 -z-10"></div>
         <BlobBackground position="top-right" color="#FF0066" />
         <BlobBackground position="bottom-left" color="#9333EA" />
@@ -575,7 +586,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Development Section */}
       <section className="py-16 md:py-24">
@@ -586,8 +597,7 @@ export default function Home() {
                 Do More...
               </div>
               <h2 className="text-3xl md:text-5xl font-bold text-neutral-700 mb-8">
-                Streamline Development With Innovative And Consistence User
-                Interface Designs
+                Highlights of DIGITAL CARGO OPERATING SYSTEM
               </h2>
               <div className="relative">
                 <Image
@@ -602,30 +612,29 @@ export default function Home() {
             <div className="flex-1">
               <div className="pt-20 mb-8">
                 <p className="text-gray-700 mb-4">
-                  Our template is specifically designed to fast-track your{" "}
-                  <span className="font-semibold">healthcare appointment</span>{" "}
-                  and manage booking product development by providing
-                  ready-to-use HTML pages tailored to these industries. With
-                  pre-built pages like dashboards, calendar bookings,
-                  appointment progress, list of upcoming, documents and
-                  onboarding etc.
+                  By choosing our Digital Cargo Operating System, one can expect
+                  not only improved operational efficiencies but also a
+                  significant enhancement in customer satisfaction through
+                  faster, more reliable service. Join us in revolutionizing the
+                  cargo and logistics industry, setting new standards for what
+                  is possible in the digital age.
                 </p>
               </div>
 
-              <div className="space-y-8">
+              <div className="space-y-8 text-neutral-700">
                 <div className="flex gap-4">
                   <div className="w-10 h-10 bg-red-50 rounded-lg flex items-center justify-center text-red-500 font-bold">
                     1
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2">
-                      Download And Quick Start
+                    <h3 className="text-xl font-bold mb-2 ">
+                      AI-Native Digital Cargo Platform
                     </h3>
-                    <p className="text-gray-600">
+                    {/* <p className="text-gray-600">
                       We have document file in folder to guide you about code
                       structure, customization, personalization settings
                       defaults define.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
 
@@ -635,14 +644,14 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">
-                      Personalize Branding
+                      Conversational User Interface
                     </h3>
-                    <p className="text-gray-600">
+                    {/* <p className="text-gray-600">
                       Choose your branding assets and color scheme and define
                       all main layouts. Currently template is using cookies for
                       live personalize classes storage. You should run it into
                       server/localhost.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
 
@@ -652,13 +661,63 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">
-                      Finalize Ready-To-Use Pages
+                      Comprehensive Workflows & Visibility
                     </h3>
-                    <p className="text-gray-600">
+                    {/* <p className="text-gray-600">
                       As domain specific app template it's benefit to have major
                       commonly used screen ready. Choose page template and start
                       development process.
-                    </p>
+                    </p> */}
+                  </div>
+                </div>
+                <div className="flex gap-4">
+                  <div className="w-10 h-10 bg-red-50 rounded-lg flex items-center justify-center text-red-500 font-bold">
+                    4
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">
+                      Enhanced Digital Document Management
+                    </h3>
+                  </div>
+                </div>
+                <div className="flex gap-4">
+                  <div className="w-10 h-10 bg-red-50 rounded-lg flex items-center justify-center text-red-500 font-bold">
+                    5
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">
+                      Automated TDMS & Slot Booking
+                    </h3>
+                  </div>
+                </div>
+                <div className="flex gap-4">
+                  <div className="w-10 h-10 bg-red-50 rounded-lg flex items-center justify-center text-red-500 font-bold">
+                    6
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">
+                      Intelligent Data Entry Automation
+                    </h3>
+                  </div>
+                </div>
+                <div className="flex gap-4">
+                  <div className="w-10 h-10 bg-red-50 rounded-lg flex items-center justify-center text-red-500 font-bold">
+                    7
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">
+                      Integrated Sustainability Monitoring & Reporting
+                    </h3>
+                  </div>
+                </div>
+                <div className="flex gap-4">
+                  <div className="w-10 h-10 bg-red-50 rounded-lg flex items-center justify-center text-red-500 font-bold">
+                    8
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">
+                      Data-Driven Insights
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -668,7 +727,7 @@ export default function Home() {
       </section>
 
       {/* Features Grid */}
-      <section className="relative pb-16 md:pb-52">
+      {/* <section className="relative pb-16 md:pb-52">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-yellow-50 p-8 rounded-xl">
@@ -710,11 +769,10 @@ export default function Home() {
           color="#ffedd5"
           className="!-bottom-2"
         />
-      </section>
+      </section> */}
 
       {/* Quick Start Section */}
-      <section className="relative py-16 md:py-24 ">
-        {/* <WaveBackground position="top" color="#e0f2fe" /> */}
+      {/* <section className="relative py-10 md:py-14 ">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-orange-100 via-orange-100 to-orange-100 -z-10"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="inline-block px-4 py-1 rounded-full bg-blue-100 text-blue-600 font-medium text-sm mb-6">
@@ -807,7 +865,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* App Screenshots */}
       {/* <section className="py-16 md:py-24 relative">

@@ -290,8 +290,8 @@ export default function ContactPage() {
             Get in Touch
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mb-8 text-gray-600">
-            Have questions about Tiptap? We're here to help you build amazing
-            editing experiences.
+            Discover how we can enhance your supply chain operations? We'd love
+            to hear from you.
           </p>
         </section>
 
@@ -397,10 +397,10 @@ export default function ContactPage() {
                     Email
                   </h3>
                   <a
-                    href="mailto:hello@tiptap.dev"
+                    href="mailto:marketing@cargospheretech.com"
                     className="text-gray-600 hover:text-secondary"
                   >
-                    hello@tiptap.dev
+                    marketing@cargospheretech.com
                   </a>
                 </div>
               </div>

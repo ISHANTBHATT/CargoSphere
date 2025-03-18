@@ -60,9 +60,9 @@ function Homepage() {
         <ProductShowcase />
         {/* <TestimonialSection /> */}
         <VideoSection />
-        <div className="h-[40rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
+        {/* <div className="h-[40rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
           <Testimonials items={testimonials} direction="right" speed="slow" />
-        </div>
+        </div> */}
         <Team />
         {/* <ShapedCard /> */}
         {/* <Clients /> */}
