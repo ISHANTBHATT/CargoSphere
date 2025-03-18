@@ -410,9 +410,9 @@ import { WaveBackground, BlobBackground } from "../components/Wave-Background";
 
 export default function Home() {
   return (
-    <main className="min-h-screen ">
+    <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-gray-200 via-orange-100 to-orange-100">
+      <section className="py-10 relative overflow-hidden bg-gradient-to-br from-gray-200 via-orange-100 to-orange-100">
         <div className="absolute top-0 right-0 w-full h-[500px] bg-gradient-to-br from-purple-100/50 to-pink-100/30 rounded-bl-[100px] -z-10"></div>
 
         <div className="max-w-7xl mx-auto px-4 pt-16 md:pt-36">
@@ -489,7 +489,7 @@ export default function Home() {
 
       {/* Main Heading Section */}
       <section className="relative py-16 md:pt-64 ">
-        <WaveBackground position="top" color="#ffedd5" />
+        <WaveBackground position="top" color="#ffedd5" className="!-top-2" />
         <div className="container mx-auto px-4 text-center">
           <div className="inline-block px-4 py-1 rounded-full bg-orange-100 text-orange-500 font-medium text-sm mb-6">
             Why DigiClinic Mobile
@@ -544,7 +544,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1 relative">
-              <div className="relative w-[500px] h-[400px] mx-auto">
+              <div className="relative flex justify-center">
                 <Image
                   src="/images/f1.png"
                   alt="Patient Profile UI"
@@ -705,13 +705,16 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <WaveBackground position="bottom" color="#ffedd5" />
+        <WaveBackground
+          position="bottom"
+          color="#ffedd5"
+          className="!-bottom-2"
+        />
       </section>
 
       {/* Quick Start Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative py-16 md:py-24 ">
         {/* <WaveBackground position="top" color="#e0f2fe" /> */}
-
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-orange-100 via-orange-100 to-orange-100 -z-10"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="inline-block px-4 py-1 rounded-full bg-blue-100 text-blue-600 font-medium text-sm mb-6">

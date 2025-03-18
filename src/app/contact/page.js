@@ -297,7 +297,7 @@ export default function ContactPage() {
 
         <div className="grid md:grid-cols-2 gap-12 mb-20">
           {/* Contact Form */}
-          <section className="bg-white/80 backdrop-blur-sm p-8 rounded-xl shadow-lg">
+          <section className="bg-white/80  p-8 rounded-xl shadow-lg">
             <h2 className="text-2xl font-bold mb-6 text-secondary">
               Send us a message
             </h2>
@@ -474,7 +474,7 @@ export default function ContactPage() {
         </div>
 
         {/* FAQ Section */}
-        <section className="bg-white/80 backdrop-blur-md rounded-xl p-8 md:p-12 shadow-md">
+        <section className="bg-white/80  rounded-xl p-8 md:p-12 shadow-md">
           <h2 className="text-2xl font-bold mb-8 text-gray-800">
             Frequently Asked Questions
           </h2>

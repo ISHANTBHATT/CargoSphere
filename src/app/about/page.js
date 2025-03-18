@@ -252,7 +252,7 @@ function page() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="bg-white/80 backdrop-blur-sm p-6 rounded-lg shadow-lg"
+                className="bg-white/80  p-6 rounded-lg shadow-lg"
               >
                 <h3 className="text-xl font-semibold mb-3 text-secondary">
                   {item.title}
@@ -305,7 +305,7 @@ function page() {
         </section>
 
         {/* Contact/CTA Section */}
-        <section className="bg-gray-100/80 backdrop-blur-md rounded-xl p-8 md:p-12 shadow-md">
+        <section className="bg-gray-100/80  rounded-xl p-8 md:p-12 shadow-md">
           <div className="md:flex items-center justify-between">
             <div className="mb-6 md:mb-0 md:mr-8">
               <h2 className="text-3xl font-bold mb-3 text-gray-800">

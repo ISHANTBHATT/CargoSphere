@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <Image src="/images/logo.png" alt=" " width={500} height={150} />
+              <Image src="/images/logo2.png" alt=" " width={500} height={150} />
               {/* <div className="h-8 w-8 bg-white"></div>
               <span className="font-medium text-white">Square Card</span> */}
             </div>

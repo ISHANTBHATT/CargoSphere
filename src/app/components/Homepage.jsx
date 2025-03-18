@@ -54,7 +54,7 @@ function Homepage() {
       {/* <Hero /> */}
       <Banner2 />
       {/* <Banner /> */}
-      <div className="px-20">
+      <div className="px-4 md:px-20">
         <Features />
         <FeaturesHighlight />
         <ProductShowcase />

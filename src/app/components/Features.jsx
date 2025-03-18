@@ -180,7 +180,7 @@ export default function BankingServices() {
               key={key}
               onClick={() => setActiveTab(key)}
               className={cn(
-                "px-6 py-3 rounded-full text-sm font-medium transition-all duration-200",
+                "px-3 py-2 sm:px-6 sm:py-3  rounded-full text-sm font-medium transition-all duration-200",
                 activeTab === key
                   ? "bg-orange-500 text-white shadow-lg shadow-orange-500/30"
                   : "bg-white text-slate-600 hover:bg-orange-50 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700"

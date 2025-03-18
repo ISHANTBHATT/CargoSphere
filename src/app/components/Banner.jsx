@@ -97,6 +97,8 @@
 //   );
 // }
 
+//working
+
 "use client";
 import React from "react";
 import { FlipWords } from "./FlipWords";
@@ -153,8 +155,8 @@ export default function Banner() {
   };
 
   return (
-    <div className=" flex flex-col justify-center items-left">
-      <div className="text-4xl font-normal text-neutral-600 dark:text-neutral-400 ">
+    <div className=" flex flex-col justify-center items-left overflow-hidden">
+      <div className=" font-normal text-neutral-600 dark:text-neutral-400 ">
         <TypewriterEffectSmooth
           words={typewriterWords}
           renderWord={renderWord}
@@ -163,3 +165,53 @@ export default function Banner() {
     </div>
   );
 }
+
+// Banner.jsx
+// "use client";
+// import React from "react";
+// import { FlipWords } from "./FlipWords";
+// import { TypewriterEffectSmooth } from "./TypewriterEffect";
+
+// export default function Banner() {
+//   const flipWords = ["Productivity", "Visibility", "Sustainability"];
+
+//   const typewriterWords = [
+//     { text: "DCOS" },
+//     { text: "Offers" },
+//     { text: "FlipWords", isFlipWord: true },
+//     { text: "with" },
+//     { text: "one-click" },
+//     { text: "interface." },
+//   ];
+
+//   const renderWord = (word, index) => {
+//     if (word.isFlipWord) {
+//       return (
+//         <React.Fragment key={index}>
+//           <FlipWords
+//             words={flipWords}
+//             className="inline-block text-secondary text-2xl md:text-4xl"
+//           />
+//         </React.Fragment>
+//       );
+//     }
+//     return (
+//       <span key={index} className="text-2xl md:text-4xl">
+//         {word.text}
+//       </span>
+//     );
+//   };
+
+//   return (
+//     <div className="flex flex-col justify-center items-start">
+//       <div className="font-normal text-neutral-600 dark:text-neutral-400">
+//         <TypewriterEffectSmooth
+//           words={typewriterWords}
+//           renderWord={renderWord}
+//           className="text-xl md:text-3xl lg:text-4xl"
+//           cursorClassName="h-6 md:h-8"
+//         />
+//       </div>
+//     </div>
+//   );
+// }

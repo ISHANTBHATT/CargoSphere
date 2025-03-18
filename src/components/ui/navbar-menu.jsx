@@ -75,7 +75,7 @@ export const Menu = ({ setActive, children }) => {
     <nav
       // resets the state
       onMouseLeave={() => setActive(null)}
-      className="relative rounded-full border  bg-gray-50 border-white/[0.2]  shadow-input flex justify-between items-center space-x-4 px-10 py-6 "
+      className="relative rounded-full border  bg-gray-50 border-white/[0.2]  shadow-input md:flex justify-between items-center space-x-4 px-10 py-6 hidden"
       // className={`relative border  bg-black border-white/[0.2]  shadow-input flex justify-between space-x-4 px-10 py-6",
       //           ${isScrolled ? "rounded-full" : "rounded-none"} `}
     >
