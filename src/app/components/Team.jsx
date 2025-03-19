@@ -38,9 +38,9 @@ export default function Team() {
   return (
     <div className="py-16 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="text-center mb-16">
-        <p className="text-sm tracking-wider text-gray-600 mb-4">
+        {/* <p className="text-sm tracking-wider text-gray-600 mb-4">
           PROFESSIONAL
-        </p>
+        </p> */}
         <h2 className="text-4xl lg:text-5xl font-bold text-neutral-700">
           Core Team
         </h2>

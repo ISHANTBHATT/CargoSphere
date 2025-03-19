@@ -175,6 +175,44 @@ import React from "react";
 import { ArrowRight, Mail, Github, Twitter } from "lucide-react";
 
 function page() {
+  const team = [
+    {
+      id: 1,
+      name: "Kamal Jain",
+      role: "Co Founder & ED",
+      image: "/images/p1.png",
+    },
+    {
+      id: 2,
+      name: "Rishi Khare",
+      role: "Co Founder & CTO",
+      image: "/images/p2.png",
+    },
+    {
+      id: 3,
+      name: "Rajeev K Thukral",
+      role: "Co-Founder & Director",
+      image: "/images/p3.png",
+    },
+    {
+      id: 4,
+      name: "Murray Smith",
+      role: "Advisor & Mentor",
+      image: "/images/p4.png",
+    },
+    {
+      id: 5,
+      name: "Wayne Dunne",
+      role: "Advisor & Mentor",
+      image: "/images/p5.png",
+    },
+    {
+      id: 6,
+      name: "Saurabh Kumar",
+      role: "Mentor",
+      image: "/images/p6.png",
+    },
+  ];
   return (
     <main className="min-h-screen relative overflow-hidden">
       {/* Colorful gradient background */}
@@ -313,24 +351,24 @@ function page() {
         <section className="mb-20">
           <h2 className="text-3xl font-bold mb-6 text-gray-800">The Team</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            {[1, 2, 3].map((member) => (
+            {team.map((member) => (
               <div
                 key={member}
                 className="flex flex-col items-center text-center"
               >
                 <div className="w-32 h-32 rounded-full overflow-hidden mb-4 bg-gray-100">
                   <Image
-                    src={`/placeholder.svg?height=128&width=128`}
-                    alt={`Team member ${member}`}
+                    src={member.image}
+                    alt={`Team member ${member.name}`}
                     width={128}
                     height={128}
                     className="object-cover"
                   />
                 </div>
                 <h3 className="text-xl font-semibold mb-1 text-gray-800">
-                  Team Member {member}
+                  {member.name}
                 </h3>
-                <p className="text-gray-600 mb-3">Co-founder & Developer</p>
+                <p className="text-gray-600 mb-3">{member.role}</p>
                 <div className="flex space-x-3">
                   <a
                     href="#"

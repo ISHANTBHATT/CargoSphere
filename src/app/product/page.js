@@ -593,9 +593,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-start gap-12">
             <div className="flex-1">
-              <div className="inline-block px-4 py-1 rounded-full bg-pink-100 text-pink-500 font-medium text-sm mb-6">
+              {/* <div className="inline-block px-4 py-1 rounded-full bg-pink-100 text-pink-500 font-medium text-sm mb-6">
                 Do More...
-              </div>
+              </div> */}
               <h2 className="text-3xl md:text-5xl font-bold text-neutral-700 mb-8">
                 Highlights of DIGITAL CARGO OPERATING SYSTEM
               </h2>
