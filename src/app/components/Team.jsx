@@ -59,7 +59,7 @@ export default function Team() {
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
-                <a href="#" className="text-white hover:text-gray-200">
+                {/* <a href="#" className="text-white hover:text-gray-200">
                   <Facebook className="w-6 h-6" />
                 </a>
                 <a href="#" className="text-white hover:text-gray-200">
@@ -67,7 +67,7 @@ export default function Team() {
                 </a>
                 <a href="#" className="text-white hover:text-gray-200">
                   <Linkedin className="w-6 h-6" />
-                </a>
+                </a> */}
               </div>
             </div>
             <h3 className="text-xl font-display mb-2">{member.name}</h3>
