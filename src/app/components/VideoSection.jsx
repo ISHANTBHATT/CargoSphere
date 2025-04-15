@@ -26,7 +26,7 @@ export default function VideoSection() {
               opportunity to elevate your supply chain to unprecedented levels.
             </p>
           </div>
-          <div className="flex flex-col gap-4 lg:flex-row">
+          {/* <div className="flex flex-col gap-4 lg:flex-row">
             <Button
               size="lg"
               className="bg-neutral-800 rounded-full text-white hover:bg-secondary "
@@ -41,7 +41,7 @@ export default function VideoSection() {
               <Play className="mr-2 h-4 w-4  transition-transform group-hover:scale-125" />
               View Video
             </Button>
-          </div>
+          </div> */}
         </div>
 
         <Card className="relative overflow-hidden bg-gradient-to-br from-blue-500/10 to-cyan-500/10 backdrop-blur">

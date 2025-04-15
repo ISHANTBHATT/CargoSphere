@@ -452,7 +452,7 @@ export default function Home() {
                     <p className="text-sm text-gray-500">It's live demo</p>
                   </div>
                 </div> */}
-                <Button
+                {/* <Button
                   size="lg"
                   className="bg-neutral-700 rounded-full text-white hover:bg-black"
                 >
@@ -460,7 +460,7 @@ export default function Home() {
                 </Button>
                 <Button className="bg-white hover:bg-gray-50 text-secondary border border-purple-200 rounded-full px-8">
                   Buy now
-                </Button>
+                </Button> */}
               </div>
             </div>
             <div className="flex-1 relative">

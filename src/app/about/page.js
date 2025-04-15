@@ -369,7 +369,7 @@ function page() {
                   {member.name}
                 </h3>
                 <p className="text-gray-600 mb-3">{member.role}</p>
-                <div className="flex space-x-3">
+                {/* <div className="flex space-x-3">
                   <a
                     href="#"
                     className="text-secondary hover:text-secondary/40"
@@ -382,7 +382,7 @@ function page() {
                   >
                     <Github size={18} />
                   </a>
-                </div>
+                </div> */}
               </div>
             ))}
           </div>
@@ -410,7 +410,7 @@ function page() {
                 Contact Us
               </Link>
               <Link
-                href="/docs"
+                href=""
                 className="inline-flex items-center justify-center px-6 py-3 border border-secondary text-secondary rounded-md hover:bg-orange-600 hover:text-white transition-colors"
               >
                 View Documentation

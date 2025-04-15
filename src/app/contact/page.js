@@ -265,6 +265,8 @@ import {
   MessageSquare,
   Github,
   Twitter,
+  Facebook,
+  Linkedin,
 } from "lucide-react";
 
 export default function ContactPage() {
@@ -414,16 +416,16 @@ export default function ContactPage() {
                     Office
                   </h3>
                   <address className="text-gray-600 not-italic">
-                    123 Editor Street
+                    Plot No: 68, Sri Prashant Sai Towers,
                     <br />
-                    San Francisco, CA 94103
+                    Nagarjuna Hills Hyderabad -
                     <br />
-                    United States
+                    500008 Telangana , India
                   </address>
                 </div>
               </div>
 
-              <div className="flex items-start">
+              {/* <div className="flex items-start">
                 <div className="flex-shrink-0 bg-white/80 p-3 rounded-full mr-4 shadow">
                   <Phone size={20} className="text-secondary" />
                 </div>
@@ -438,7 +440,7 @@ export default function ContactPage() {
                     +1 (555) 123-4567
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Social Media */}
@@ -447,34 +449,36 @@ export default function ContactPage() {
                 Connect with us
               </h3>
               <div className="flex space-x-4">
-                <a
-                  href="#"
+                <Link
+                  href="https://www.facebook.com/profile.php?id=61573696225377"
                   className="bg-white/80 p-3 rounded-full hover:bg-gray-200 transition-colors"
+                  target="_blank"
                   aria-label="Twitter"
                 >
-                  <Twitter size={20} className="text-secondary" />
-                </a>
-                <a
-                  href="#"
+                  <Facebook size={20} className="text-secondary" />
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/company/cargospheretech/about/?viewAsMember=true"
                   className="bg-white/80 p-3 rounded-full hover:bg-gray-200 transition-colors"
+                  target="_blank"
                   aria-label="GitHub"
                 >
-                  <Github size={20} className="text-secondary" />
-                </a>
-                <a
+                  <Linkedin size={20} className="text-secondary" />
+                </Link>
+                {/* <a
                   href="#"
                   className="bg-white/80 p-3 rounded-full hover:bg-gray-200 transition-colors"
                   aria-label="Discord"
                 >
                   <MessageSquare size={20} className="text-secondary" />
-                </a>
+                </a> */}
               </div>
             </div>
           </section>
         </div>
 
         {/* FAQ Section */}
-        <section className="bg-white/80  rounded-xl p-8 md:p-12 shadow-md">
+        {/* <section className="bg-white/80  rounded-xl p-8 md:p-12 shadow-md">
           <h2 className="text-2xl font-bold mb-8 text-gray-800">
             Frequently Asked Questions
           </h2>
@@ -534,7 +538,7 @@ export default function ContactPage() {
               Visit our Documentation
             </Link>
           </div>
-        </section>
+        </section> */}
       </div>
     </main>
   );

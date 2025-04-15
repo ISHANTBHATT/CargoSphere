@@ -56,6 +56,7 @@ export default function FeaturesHighlight() {
             <div className=" absolute z-10 flex justify-center items-center w-full h-full  rounded-full">
               <Image
                 src="/images/f1.png"
+                alt="Flow Image"
                 width={400}
                 height={400}
                 className="object-cover"
